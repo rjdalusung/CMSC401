@@ -9,7 +9,7 @@ public class CMSC401_A1{
         Scanner input = new Scanner(System.in);
         int n = input.nextInt(); //number of ints in array
 
-        int array[] = new int[1000000]; //new array, size is the max size of array
+        int array[] = new int[n]; //new array, size is the max size of array
         int cme1 = 0; //candidate majority element 1
         int cme2 = 0; //candidate majority element 2
         int cme1_count = 0; //counter for cme1
