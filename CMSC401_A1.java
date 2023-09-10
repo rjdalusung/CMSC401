@@ -50,16 +50,16 @@ public class CMSC401_A1{
             if(cme2_count > n/3){
                 if(cme1_count > cme2_count){
                     System.out.print(cme2);
-                    System.out.print(" " + cme1);
+                    System.out.println(" " + cme1);
                 }else{
                     System.out.print(cme1);
-                    System.out.print(" " + cme2);
+                    System.out.println(" " + cme2);
                 }
             }else{
-                System.out.print(cme1);
+                System.out.println(cme1);
             }
         }else if(cme2_count > n/3){
-            System.out.print(cme2);
+            System.out.println(cme2);
         }else{
             System.out.println(-1);
         }
